@@ -15,7 +15,7 @@ cd CounterWebApp
 git checkout $BRANCH
 '''
 }
-stage
+stage("build")
 {
 sh '''
 cd CounterWebApp
